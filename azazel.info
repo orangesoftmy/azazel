@@ -1,0 +1,72 @@
+core = "6.x"
+description = "azazel is a base theme that is all about going with the flow. It takes care of key reset and utility tasks so that sub-themes can get on with their job."
+engine = "phptemplate"
+name = "azazel"
+regions[left] = "Left sidebar"
+regions[right] = "Right sidebar"
+regions[content] = "Content"
+regions[header] = "Header"
+regions[footer] = "Footer"
+regions[navigation_menu] = "Navigation Menu"
+scripts[] = "js/azazel.js"
+
+stylesheets[screen][] = "css/reset.css"
+stylesheets[screen][] = "css/drupal.css"
+stylesheets[screen][] = "css/base.css"
+;comment layout.css to remove default layout
+stylesheets[screen][] = "css/layout.css" 
+stylesheets[print][] = "css/reset.css"
+stylesheets[print][] = "css/base.css"
+stylesheets[print][] = "css/print.css"
+
+; Omit core stylesheets.
+; Note that several stylesheets are left included because of their non-invasive
+; or isolated nature:
+;
+;   color/color.css
+;   locale/locale.css
+;
+; Other functionally critical styles should be reimplemented in `drupal.css`
+; without styles that compromise the typographical grid or otherwise complicate
+; subtheming.
+
+stylesheets[all][] = "admin.css"
+stylesheets[all][] = "block.css"
+stylesheets[all][] = "book.css"
+stylesheets[all][] = "comment.css"
+stylesheets[all][] = "dblog.css"
+stylesheets[all][] = "defaults.css"
+stylesheets[all][] = "forum.css"
+stylesheets[all][] = "help.css"
+stylesheets[all][] = "maintenance.css"
+stylesheets[all][] = "node.css"
+stylesheets[all][] = "openid.css"
+stylesheets[all][] = "poll.css"
+stylesheets[all][] = "profile.css"
+stylesheets[all][] = "search.css"
+stylesheets[all][] = "system.css"
+stylesheets[all][] = "system-menus.css"
+stylesheets[all][] = "taxonomy.css"
+stylesheets[all][] = "tracker.css"
+stylesheets[all][] = "update.css"
+stylesheets[all][] = "user.css"
+
+settings[azazel_block_editing]        = 1 
+settings[azazel_breadcrumb]           = yes
+settings[azazel_breadcrumb_separator] = ' » '
+settings[azazel_breadcrumb_home]      = 1
+settings[azazel_breadcrumb_trailing]  = 0
+settings[azazel_breadcrumb_title]     = 0 
+settings[azazel_dropdown]             = 1
+settings[azazel_dropdown_2_col]       = 6
+settings[azazel_dropdown_3_col]       = 8
+settings[azazel_dropdown_delay]       = 300
+settings[azazel_dropdown_speed_show]  = 500
+settings[azazel_dropdown_speed_hide]  = 300
+
+
+version = "6.x-1.0-dev"
+core = "6.x"
+project = "azazel"
+
+

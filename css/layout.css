@@ -1,0 +1,15 @@
+/*
+ * Basic layout for sidebars
+ */
+
+#container {width:960px; margin:0 auto; }
+#page .limiter { overflow:hidden; } 
+
+#main, #left, #right { float:left; }
+  
+.sidebar-left #main { margin-left:170px; }
+.sidebar-right #main { margin-right:170px; }
+.two-sidebars #main { margin:0 170px; }
+
+#left { float: left; margin-left: -100%; width: 170px; }
+#right { float: right; margin-left: -170px; width: 170px; }
